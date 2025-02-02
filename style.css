@@ -8,6 +8,7 @@
 
 :root {
     --primary-colour: rgb(4, 54, 133);
+    --valid-colour: rgb(0, 128, 107);
 }
 
 body {
@@ -83,6 +84,7 @@ button {
     padding: 6px;
     border: solid 1px gray;
     border-radius: 6px;
+    box-shadow: 0px 0px 10px rgb(194, 194, 194);
 }
 
 button {
@@ -103,4 +105,15 @@ button:hover {
 h1 {
     font-size: 3rem;
     color: var(--primary-colour);
+}
+
+input:valid {
+    transition: 0.8s;
+    color: var(--valid-colour);
+    border-color: var(--valid-colour);
+    background-color: rgba(0, 128, 107, 0.151);
+}
+
+input:invalid {
+    transition: 0.8s;
 }
