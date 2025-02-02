@@ -7,7 +7,7 @@
 }
 
 :root {
-    --primary-colour: rgb(4, 54, 133);
+    --primary-colour: rgb(4, 54, 113);
     --valid-colour: rgb(0, 128, 107);
 }
 
@@ -116,4 +116,9 @@ input:valid {
 
 input:invalid {
     transition: 0.8s;
+}
+
+.content-wrapper p {
+    font-size: 0.8rem;
+    font-weight: 700;
 }
